@@ -1,15 +1,3 @@
-int pin = 6;
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-  int val = readCapacitivePin( pin );
-  Serial.println(val);
-}
-
 // readCapacitivePin
 //  Input: Arduino pin number
 //  Output: A number, from 0 to 17 expressing
