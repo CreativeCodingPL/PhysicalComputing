@@ -1,3 +1,5 @@
+//miganie bez delay
+
 int ledState = LOW;        // pamieta czy dioad jest on czy off
 long previousTime = 0;     // kiedy ostatnio dioda była zapalana lub gaszona
 
