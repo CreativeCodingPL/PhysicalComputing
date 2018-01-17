@@ -1,4 +1,4 @@
-# Sezon 01 :: Łączymy bity i atomy za pomocą Arduino
+# Sezon 05 :: Widze temperaturę w tym tęczu
 
 ## Poruszone zagadnienia
 - Neopixele
