@@ -22,10 +22,11 @@ void loop() {
 
   //Change direction when the stepper reaches the target position
   if (stepper1.distanceToGo() == 0) {
-    pozycja++
+    pozycja++;
     if(pozycja == 1) stepper1.moveTo(1500);
     if(pozycja == 2) stepper1.moveTo(3000);
-    if(pozycja == 3) stepper1.moveTo(-4000);    
+    if(pozycja == 3) stepper1.moveTo(0 );  
+    delay(500);  
   }
   
    stepper1.run();
