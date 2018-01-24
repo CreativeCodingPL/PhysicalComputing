@@ -5,7 +5,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  short R = random(255); // (od 0 do 254, bo 255 zarezerwowaner na start paczki)
+  byte R = random(255); // (od 0 do 254, bo 255 zarezerwowaner na start paczki)
   byte G = random(255);
   byte B = random(255);
   Serial.write(255); //jak 255 to info ze mamy poczatek transmisji paczki trzech liczb RGB
