@@ -15,11 +15,12 @@ Arduino: [millis()](file:///Applications/Arduino.app/Contents/Java/reference/www
 - [Day for night](https://dayfornight.io)
 - [Kikk](https://www.kikk.be)
 
-
 ## Praca domowa
 Stworzyć prostą maszynę stanową na Arduino która co 5 sekund będzie się witać lub żegnać przez Serial
 
 ## Materiały pomocnicze
+- [Automat skończony](https://pl.wikipedia.org/wiki/Automat_sko%C5%84czony)
 - [The Quick, Draw! Dataset](https://github.com/googlecreativelab/quickdraw-dataset)
 - [int](https://www.arduino.cc/reference/en/language/variables/data-types/int/) vs. [unsigned long](https://www.arduino.cc/reference/en/language/variables/data-types/unsignedlong/)
+- [Algorithmic Beauty of Plants](https://www.amazon.com/Algorithmic-Beauty-Plants-Virtual-Laboratory/dp/0387972978)
 - [Azorro - Everything has been done](https://www.youtube.com/watch?v=LDssDK41UYw)
