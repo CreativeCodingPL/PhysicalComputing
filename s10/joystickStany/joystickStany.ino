@@ -1,6 +1,7 @@
 int tryb = 0;
 //0 - normalne liczby
 //1 - przyciete liczby
+unsigned long ostatniOdczyt=0;
 
 void setup() {
   pinMode(2, INPUT);
@@ -9,7 +10,8 @@ void setup() {
 }
 
 void loop() {
-  if (digitalRead(2) == LOW) {
+  if (digitalRead(2) == LOW && (millis() - ostatniOdczyt > 1000)) {
+    ostatniOdczyt = millis();
     if(tryb==0) { 
       tryb = 1;
     }

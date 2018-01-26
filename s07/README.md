@@ -1,4 +1,4 @@
-# Sezon 07 :: Czujnik temperatury One Wire + własny kontroler do processing
+# Sezon 07 :: Czujnik temperatury One Wire + własny kontroler do processing (Jak poparzyć się termometrem?)
 
 ## Poruszone zagadnienia
 - One Wire
