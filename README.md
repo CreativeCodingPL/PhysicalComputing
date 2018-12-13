@@ -1,2 +1,0 @@
-# Warsztat: Physical Computing
-
