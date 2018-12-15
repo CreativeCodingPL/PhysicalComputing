@@ -6,3 +6,4 @@
 - digitalWrite()
 - delay()
 - analogWrite()
+- random()
