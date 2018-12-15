@@ -28,4 +28,7 @@
 ## Praca domowa
 Reakcja na zgaszenie światła w pomieszczeniu. Nudny przykład: gasimy światło to zapala się dioda, zapalamy światło to gasi się dioda. Wasze zadanie wymyślić coś ekstra. Może być więcej diod + serwo :)
 
+## Przydatne linki
+- [Arduino Leonardo Pinout diagram](https://duino4projects.com/wp-content/uploads/2013/04/Ardunio_leonardo_pinout.jpg)
+
 
