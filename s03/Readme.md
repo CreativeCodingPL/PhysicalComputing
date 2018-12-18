@@ -2,4 +2,4 @@
 
 ## Schematy
 
-![](https://github.com/CreativeCodingPL/PhysicalComputing/blob/2018/s03/e04_wedrowiecPokretlo.png)
+![](e04_wedrowiecPokretlo.png)
