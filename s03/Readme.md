@@ -2,4 +2,4 @@
 
 ## Schematy
 
-![](e04_wedrowiecPokretlo.png)
+![e04_wedrowiecPokretlo](e04_wedrowiecPokretlo.png)
