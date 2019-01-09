@@ -2,7 +2,7 @@
 
 //HALF4WIRE zeby dzialolo z silnikiem 28BYJ-48
 //wazne 9 i 10 zamienione miejscami zeby dzialolo z silnikiem 28BYJ-48
-AccelStepper stepper(AccelStepper::HALF4WIRE, 8, 10, 9, 11); 
+AccelStepper stepper(AccelStepper::HALF4WIRE, 8, 10, 9, 11);
 //podlaczenie:
 //8 - IN1
 //9 - IN2
@@ -20,6 +20,14 @@ int etap = 0;
 //jak etap 4 to wracam do etap 1
 
 #define MiedzyLiterami -64*32*2 / 8 //definicja odleglosci miedzy literami w krokach
+/*
+   pelen obrot wskazówki to 64*32*2 kroki, bo 32 kroki robi wewnętrzy rotor
+   i przekladnia jego ruchu za pomocą trybów to 1:64
+   i jeszcze wszysko *2 bo na jeden krok przypadają dwa pół kroki
+   bo działamy w trybie Half Step dzięki ustawieniu AccelStepper::HALF4WIRE
+   +/- ustala kierunek obrotu.
+   /8 bo litery są rozłożone na tarczy co 1/8 obrotu.
+*/
 
 void setup()
 {
@@ -33,13 +41,13 @@ int pos = 100; //do jakiej pozycji aktualnie ide w celu poszukiwania A
 
 void loop()
 {
-  if(etap == 0) { //szuakmy A
+  if (etap == 0) { //szuakmy A
     int s1 = analogRead(A0); //sprawdza ile swiatla pada na fotorezystor
     stepper.runToNewPosition(pos); //zaczyna isc do pos czeka az do niej dojdzie
     int s2 = analogRead(A0); //sprawdza ile swiatla pada na fotorezystor
     pos = pos + 100; //kolejna pozycja wieksza o 100 od poprzedniej
     stepper.runToNewPosition(pos); //zaczyna isc do pos czeka az do niej dojdzie
-    if (abs(s1 - s2) > 10) { //mamy A!!! jezeli zroznica w padajacym swietle wieksza niz 10. 
+    if (abs(s1 - s2) > 10) { //mamy A!!! jezeli zroznica w padajacym swietle wieksza niz 10.
       //znaczy ze wskazowka zaslonila fotorezystor. 10 dobrane arbitralnie
       etap = 1; //bo znaleslismy A
       stepper.setCurrentPosition(0); //zerujemy pozycje, bo zakladamy, że A jest na pozycji 0. Od niego zaczynamy etapy ruchu
@@ -47,7 +55,7 @@ void loop()
       stepper.runToNewPosition(90); //mala korekta pozycji zeby doklannie na A
       stepper.setCurrentPosition(0);
     }
-    Serial.println(abs(s1-s2));
+    Serial.println(abs(s1 - s2));
   }
   else if (stepper.distanceToGo() == 0)
   {
