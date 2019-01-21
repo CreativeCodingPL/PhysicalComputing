@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:uno",
+    "port": "/dev/cu.usbmodem145121",
+    "sketch": "joystickDrawing_arduino.ino",
+    "programmer": "USBasp"
+}
