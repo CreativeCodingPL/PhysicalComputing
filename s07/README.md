@@ -1,7 +1,13 @@
-http://playground.arduino.cc/Main/I2cScanner
+# Sezon 07 :: Wyświetlacz oled + joystick
 
-https://learn.adafruit.com/monochrome-oled-breakouts/wiring-128x32-i2c-display
+## Poruszone zagadnienia
+- OLED
+- Biblioteka adafruit GFX
+- Joystick
 
-https://learn.adafruit.com/adafruit-gfx-graphics-library/overview
+## Przydatne linki
 
-http://javl.github.io/image2cpp/
+- [http://playground.arduino.cc/Main/I2cScanner](skaner I2C)
+- [https://learn.adafruit.com/monochrome-oled-breakouts/wiring-128x32-i2c-display](Wyświetlacz OLED)
+- [https://learn.adafruit.com/adafruit-gfx-graphics-library/overview](Biblioteka adafruit GFX)
+- [http://javl.github.io/image2cpp/](Narzędzie do konwersji obrazów)
