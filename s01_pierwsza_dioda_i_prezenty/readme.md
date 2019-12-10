@@ -124,7 +124,6 @@ Opis
 
 
 ![](https://abc-rc.pl/data/gfx/icons/small/6/0/10006.jpg)
-
 ### Czujnik odbiciowy
 Wykrywa przeszkody w zakresie od 0,2cm do 60cm
 
