@@ -14,7 +14,10 @@ Twórczo przetworzona oryginalna koncepcja Arduino, z przydatnymi  podczas nauki
 - [Detale techniczne i drivery](https://www.cytron.io/c-arduino/c-arduino-main-board/p-maker-uno-simplifying-arduino-for-education) 
 - [Maker UNO: Simplifying Arduino for {Education}](https://makeruno.com.my)
 
+
 ## Pozostałe komponenty w zestawie
+
+
 
  ![](https://abc-rc.pl/data/gfx/icons/small/1/8/6181.jpg)
 
