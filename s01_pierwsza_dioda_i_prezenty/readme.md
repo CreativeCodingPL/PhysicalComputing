@@ -1,7 +1,7 @@
 ## Prezent
 
 
-![](zestaw.jpeg)
+![](zestaw.jpg)
 
 ### Zestaw w całej okazałości 
 Otrzymaliście na własność zestaw do eksperymentów na zajęciach i po zajęciach też :)
