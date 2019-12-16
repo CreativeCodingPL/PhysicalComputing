@@ -52,35 +52,50 @@ Połączone w każdej kolumnie po pięć dziurek jak zaznaczone na pomarańczowo
 # 
 #### Radio 2.4GHz - nRF24L01 
 ![](https://abc-rc.pl/data/gfx/icons/small/7/0/6407.jpg)
-Sterowanie SPI - Arduino
+
+- Sterowanie SPI, czyli Arduino podłącza się za pomocą 5 pinów.
+##### Biblioteka
+- [Optimized High Speed NRF24L01+ Driver](http://tmrh20.github.io/RF24/Arduino.html)
 # 
 
-![](https://abc-rc.pl/data/gfx/icons/small/2/2/6522.jpg)
+# 
 #### Sterownik do silnika krokowego - ULN2003 V3
+![](https://abc-rc.pl/data/gfx/icons/small/2/2/6522.jpg)
+
 Steruje silnikiem krokowym za pomocą 4 pinów cyfrowych.
 Najłatwiej używać z biblioteką, ale dla zaawansowanych można też bez.
-- **Biblioteka**
+##### Biblioteka
 - [podstawowa Stepper](https://www.arduino.cc/en/reference/stepper)
 - [polecana AccelStepper](http://www.airspayce.com/mikem/arduino/AccelStepper/index.html)
+# 
 
-![](https://abc-rc.pl/data/gfx/icons/small/1/7/12371.jpg)
+# 
 #### Silnik krokowy - 24BYJ48-N08W
-Napięcie: 5V
-64 kroki na pełen obrót
-4-fazowy
-Przekładnia 1:64
+![](https://abc-rc.pl/data/gfx/icons/small/1/7/12371.jpg)
 
+Pozawala na bardzo precyzyjne i płynne poruszanie. Świetne nadaje się do płynnego poruszania szczególnie z małą prędkością.
+ 
+- Napięcie: 5V
+- 64 kroki na pełen obrót
+- 4-fazowy
+- Przekładnia 1:64
+- Wymaga sterownika np. ULN2003 
+# 
 
-![](https://abc-rc.pl/data/gfx/icons/small/9/0/6709.jpg)
+# 
 #### Sterownik L9110 do silników DC - HG7881
-Pozwala na sterowanie dwoma silnikami 
+![](https://abc-rc.pl/data/gfx/icons/small/9/0/6709.jpg)
+
+Pozwala na sterowanie dwoma silnikami DC.
+
 - [Jak działa - wideo](https://youtu.be/q-C__0ysSis)
 - *Bez biblioteki*
 - podłącza się pod piny cyfrowe
-
+# 
 ![](https://abc-rc.pl/data/gfx/icons/small/2/9/6292.jpg)
 #### Silnik DC 6V z przekładnią 1:48 oraz koło 65mm**
-
+Pozwala na poruszanie ze zmienną prędkością i umiarkowaną precyzją, za to dużą prędkością. Słabo nadaje się do poruszania z małą prędkością. Dobry do napędzania np. kół pojazdów.
+- Wymaga sterownika np. L9110
 
 ![](https://abc-rc.pl/data/gfx/icons/small/2/7/6572.jpg)
 #### Akcelerometr i żyroskop 3-osiowe XYZ - MPU-6050 i GY-521
