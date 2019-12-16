@@ -25,12 +25,12 @@ Niektóre gotowe do użycia, inne wymagające dolutowania kabli lub gold pinów.
 
 W starym dobrym stylu wyświetlanie dwóch lini tekstu po 16 znaków każda
 
-—
+# —
 #### Czujnik ultradźwiękowy - HC-SR04  
 ![](https://abc-rc.pl/data/gfx/icons/small/1/3/6231.jpg)
 
 Pomiar odległości 2 cm - 400 cm
-—
+# —
 
 
 #### Płytka stykowa 170 pól
