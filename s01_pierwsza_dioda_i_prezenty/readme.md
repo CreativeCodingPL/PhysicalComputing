@@ -25,28 +25,35 @@ Niektóre gotowe do użycia, inne wymagające dolutowania kabli lub gold pinów.
 
 W starym dobrym stylu wyświetlanie dwóch lini tekstu po 16 znaków każda
 
-# —
+# 
 #### Czujnik ultradźwiękowy - HC-SR04  
 ![](https://abc-rc.pl/data/gfx/icons/small/1/3/6231.jpg)
 
 Pomiar odległości 2 cm - 400 cm
-# —
+# 
 
-
+# 
 #### Płytka stykowa 170 pól
 ![](plytka-stykowa.jpg)
 
 Połączone w każdej kolumnie po pięć dziurek jak zaznaczone na pomarańczowo na zdjęciu powyżej.
+# 
 
-
-![](https://abc-rc.pl/data/gfx/icons/small/8/9/6298.jpg)
+# 
 #### Czujnik ciśnienia i temperatury - GY-68 BMP180
+![](https://abc-rc.pl/data/gfx/icons/small/8/9/6298.jpg)
 
+- Pomiar ciśnienia i temperatury
+- Sterowanie po `I2C` (piny `STL` `STC`)
+##### Biblioteka
+- [Adafruit-BMP085-Library](https://github.com/adafruit/Adafruit-BMP085-Library)
+# 
 
-![](https://abc-rc.pl/data/gfx/icons/small/7/0/6407.jpg)
+# 
 #### Radio 2.4GHz - nRF24L01 
+![](https://abc-rc.pl/data/gfx/icons/small/7/0/6407.jpg)
 Sterowanie SPI - Arduino
-
+# 
 
 ![](https://abc-rc.pl/data/gfx/icons/small/2/2/6522.jpg)
 #### Sterownik do silnika krokowego - ULN2003 V3
