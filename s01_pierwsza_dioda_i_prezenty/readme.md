@@ -19,11 +19,12 @@ Twórczo przetworzona oryginalna koncepcja Arduino, z przydatnymi  podczas nauki
 ### Pozostałe komponenty w zestawie
 Niektóre gotowe do użycia, inne wymagające dolutowania kabli lub gold pinów. Jednym słowem wsypko co niezbędne, żeby nauczyć się podstaw konstruowania obwodów elektorniczny do tworzenia instalacji.
 
-
+# 
 #### Wyświetlacz LCD 2x16 ze sterownikiem HD44780 - QC1602A
  ![](https://abc-rc.pl/data/gfx/icons/small/1/8/6181.jpg)
 
 W starym dobrym stylu wyświetlanie dwóch lini tekstu po 16 znaków każda
+# 
 
 # 
 #### Czujnik ultradźwiękowy - HC-SR04  
