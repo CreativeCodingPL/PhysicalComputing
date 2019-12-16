@@ -161,6 +161,7 @@ Służy do budowy prototypów za pomocą lutowania. Trwałe połączenia, a prot
 - Sterowanie 5V (Arduino) 
 - Urządzenie sterowane 250V / 10A
 - **Bez biblioteki**
+
 Sterowanie za pomocą Arduino urządzeniami zasilanymi z kontaktu.
 
 ![](https://static2.abc-rc.pl/pol_ps_Zestaw-przyciskow-do-Arduino-25-szt-switch-12x12x7-3mm-12441_1.jpg)
