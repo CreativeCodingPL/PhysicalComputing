@@ -68,8 +68,6 @@ Najłatwiej używać z biblioteką, ale dla zaawansowanych można też bez.
 - [podstawowa Stepper](https://www.arduino.cc/en/reference/stepper)
 - [polecana AccelStepper](http://www.airspayce.com/mikem/arduino/AccelStepper/index.html)
 # 
-
-# 
 #### Silnik krokowy - 24BYJ48-N08W
 ![](https://abc-rc.pl/data/gfx/icons/small/1/7/12371.jpg)
 
@@ -79,7 +77,7 @@ Pozawala na bardzo precyzyjne i płynne poruszanie. Świetne nadaje się do pły
 - 64 kroki na pełen obrót
 - 4-fazowy
 - Przekładnia 1:64
-- Wymaga sterownika np. ULN2003 
+- Wymaga sterownika np. ULN2003
 # 
 
 # 
@@ -92,82 +90,120 @@ Pozwala na sterowanie dwoma silnikami DC.
 - *Bez biblioteki*
 - podłącza się pod piny cyfrowe
 # 
-![](https://abc-rc.pl/data/gfx/icons/small/2/9/6292.jpg)
 #### Silnik DC 6V z przekładnią 1:48 oraz koło 65mm**
-Pozwala na poruszanie ze zmienną prędkością i umiarkowaną precyzją, za to dużą prędkością. Słabo nadaje się do poruszania z małą prędkością. Dobry do napędzania np. kół pojazdów.
-- Wymaga sterownika np. L9110
+![](https://abc-rc.pl/data/gfx/icons/small/2/9/6292.jpg)
 
-![](https://abc-rc.pl/data/gfx/icons/small/2/7/6572.jpg)
+Pozwala na poruszanie ze zmienną prędkością i umiarkowaną precyzją, za to dużą prędkością. Słabo nadaje się do poruszania z małą prędkością. Dobry do napędzania np. kół pojazdów.
+
+- Wymaga sterownika np. L9110
+# 
+
+# 
 #### Akcelerometr i żyroskop 3-osiowe XYZ - MPU-6050 i GY-521
+![](https://abc-rc.pl/data/gfx/icons/small/2/7/6572.jpg)
+
+Pomiar ruchu obiektu w przestrzeni. Przyspieszenia i obroty.
+
 - Akcelerometr MPU-6050
 - Żyroskop GY-521
+# 
 
-
-
-![](https://abc-rc.pl/data/gfx/icons/small/0/1/6710.jpg)
+# 
 #### Czujnik dźwięku - LM393
-Detektor hałasu i mikrofon
+![](https://abc-rc.pl/data/gfx/icons/small/0/1/6710.jpg)
 
+Detektor hałasu lub mikrofon
 
-![](https://abc-rc.pl/data/gfx/icons/small/7/1/6717.jpg)
+- **Bez biblioteki**
+- Podłącza się pod pin cyfrowy (hałas) lub analogowy (mikrofon)
+# 
+
+# 
 #### Wyświetlacz LED 4 cyfry 
+![](https://abc-rc.pl/data/gfx/icons/small/7/1/6717.jpg)
 Wyświetla cyfry, ale też można robić efekty specjalne, glitch itp.
 
-- dołączony sterownik TM1637
-- *Biblioteka*
+- Dołączony sterownik TM1637
+##### Biblioteka
 - [podstawowa - TM1637](https://playground.arduino.cc/Main/TM1637/)
 - [fajniejsza - bremme/arduino-tm1637](https://github.com/bremme/arduino-tm1637)
+# 
 
-
-
-![](https://abc-rc.pl/data/gfx/icons/small/2/5/7652.jpg)
+# 
 #### Czujnik optyczny szczelinowy - LM393
+![](https://abc-rc.pl/data/gfx/icons/small/2/5/7652.jpg)
+
+Może być używany np. jako enkoder (pomiar prędkości obrotu lub liczby obrotów koła) lub czujnik krańcowy (pozycja startowa silnika krokowego).
+
 - Szczelina o szerokości 5mm. 
-- Działa jako enkoder lub transoptor.
 - Jak coś zasłania szczelinę to na wyjściu stan niski.
-- *Bez biblioteki*
-- Podłącza się pod pin cyfrowy
+- **Bez biblioteki**
+- Podłącza się pod pin cyfrowy.
+# 
 
-
-![](https://abc-rc.pl/data/gfx/icons/small/7/1/7917.jpg)
+# 
 #### Fotorezystor 10k-20k - GL5528
+![](https://abc-rc.pl/data/gfx/icons/small/7/1/7917.jpg)
+
+Nas ulubiony czujnik. Proste działanie, a duże możliwości i nieograniczona pomysłowość do ztosowań.
+
 - Średnica 5mm, LDR 5528
 - Opór zmienia się w zależności od natężenia padającego światłą.
 - *Bez biblioteki*
 - Podłącza się do pinu analogowego.
 - Pamiętajcie o INPUT_PULLUP
+# 
 
-![](https://abc-rc.pl/data/gfx/icons/small/7/3/8237.jpg)
+# 
 #### Ładowarka sieciowa USB 5V + Przewód Micro USB 
-Zasilanie układu bez komputera - samo działa :)
+![](https://abc-rc.pl/data/gfx/icons/small/7/3/8237.jpg)
 
+Zasilanie układu bez komputera - samo działa, tak Arduino dziką bez komputera :)
 
-![](https://abc-rc.pl/data/gfx/icons/small/7/9/8497.jpg)
+Przewód to zasilania lub programowania.
+# 
+
+# 
 #### Dioda laserowa czerwona
+![](https://abc-rc.pl/data/gfx/icons/small/7/9/8497.jpg)
+
+Można zrobić zabawkę dla kota, albo rysować wzory na suficie.
+ 
 - Napięcie pracy: 5V 
 - Długości światłą: 650nm 
-- Moc: 5mW - to sporo *uwaga na oczy!*
+- Moc: 5mW - to sporo! **uwaga na oczy!**
+# 
 
-
-![](https://abc-rc.pl/data/gfx/icons/small/1/6/8761.jpg)
+# 
 #### Przewody 
-- 20cm - męsko-żeńskie, w taśmie
-- 10cm - męsko-żeńskie, w taśmie
+![](https://abc-rc.pl/data/gfx/icons/small/1/6/8761.jpg)
+
+Jakoś to wszytko trzeba połączyć. Przewody ze złączami. Możliwość szybkiego łączenia bez lutowania. 
+
+- 20cm - męsko-żeńskie w taśmie
+- 10cm - męsko-żeńskie w taśmie
 - 20cm - męsko-męsko luzem
+# 
 
-
-![](https://abc-rc.pl/data/gfx/icons/small/7/7/9177.jpg)
+# 
 #### LED RGB 5050 sterownik WS2812 - CJMCU2814
-Cztery diody kolorowe sterowane za pomocą jednego pinu.
-*Biblioteki*
+![](https://abc-rc.pl/data/gfx/icons/small/7/7/9177.jpg)
+
+WoW! Jest kolorowo! Cztery diody kolorowe sterowane za pomocą jednego pinu. 
+
+##### Biblioteki
 - [FastLED Animation Library](http://fastled.io)
 - [Neopixel](https://learn.adafruit.com/adafruit-neopixel-uberguide)
+# 
 
-![](https://abc-rc.pl/data/gfx/icons/small/6/0/10006.jpg)
+# 
 #### Czujnik odbiciowy
+![](https://abc-rc.pl/data/gfx/icons/small/6/0/10006.jpg)
+
 Wykrywa przeszkody w zakresie od 0,2cm do 60cm
-*Bez biblioteki*
-Podłącza się pod wejście analogowe.
+
+- **Bez biblioteki**
+- Podłącza się pod wejście analogowe.
 
 ![](https://abc-rc.pl/data/gfx/icons/small/8/2/10128.jpg)
 #### Płytka uniwersalna 30x70mm - PI22Z 
