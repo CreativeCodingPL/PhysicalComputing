@@ -145,11 +145,14 @@ Może być używany np. jako enkoder (pomiar prędkości obrotu lub liczby obrot
 - Podłącza się pod pin cyfrowy.
 # 
 # 
-#### LED RGB 5050 sterownik WS2812 - CJMCU2814
+#### LED RGB (full color)
 ![](https://abc-rc.pl/data/gfx/icons/small/7/7/9177.jpg)
 
 WoW! Jest kolorowo! Cztery diody kolorowe sterowane za pomocą jednego pinu. 
-
+##### Parametry
+- Sterownik **WS2812**
+- Model całego układu CJMCU2814
+- Model diody 5050
 ##### Biblioteki
 - [FastLED Animation Library](http://fastled.io)
 - [Neopixel](https://learn.adafruit.com/adafruit-neopixel-uberguide)
@@ -158,10 +161,10 @@ WoW! Jest kolorowo! Cztery diody kolorowe sterowane za pomocą jednego pinu.
 #### Czujnik odbiciowy
 ![](https://abc-rc.pl/data/gfx/icons/small/6/0/10006.jpg)
 
-Wykrywa przeszkody w zakresie od 0,2cm do 60cm
-
-- **Bez biblioteki**
-- Podłącza się pod wejście analogowe.
+Wykrywa za pomocą światła podczerwonego przeszkody w niewielkich odległościach. Działa **bez biblioteki**
+##### Parametry
+- zakres odległości: 0,2 cm - 60 cm
+- Podłącza się po pinu analogowego
 # 
 # 
 #### Przekaźnik 
@@ -173,30 +176,33 @@ Sterowanie za pomocą Arduino urządzeniami zasilanymi z kontaktu. **Bez bibliot
 - Urządzenie sterowane 250V / 10A
 # 
 # 
-#### Fotorezystor 10k-20k - GL5528
+#### Fotorezystor 
 ![](https://abc-rc.pl/data/gfx/icons/small/7/1/7917.jpg)
 
 Nas ulubiony czujnik. Proste działanie, a duże możliwości i nieograniczona pomysłowość do ztosowań.
-
-- Średnica 5mm, LDR 5528
+##### Parametry
+- Model GL5528 lub LDR5528
+- [Specyfikacja pełna](https://cdn.sparkfun.com/datasheets/Sensors/LightImaging/SEN-09088.pdf)
+- Średnica 5mm 
+- Opór przy typowym oświetleniu 10k-20k
 - Opór zmienia się w zależności od natężenia padającego światłą.
-- *Bez biblioteki*
 - Podłącza się do pinu analogowego.
-- Pamiętajcie o INPUT_PULLUP
+- Pamiętajcie o `INPUT_PULLUP`
 # 
 # 
 #### Przycisk chwilowy
 ![](https://static2.abc-rc.pl/pol_ps_Zestaw-przyciskow-do-Arduino-25-szt-switch-12x12x7-3mm-12441_1.jpg)
 
-Przycisk o wymiarach 12x12x7,3mm.  Ma 4 pin. Wciśniecie zwiera piny bliższe siebie (tak samo po dwóch stronach). Wystarczyłby 2 piny, ale są 4 żeby lepiej trzymało się płytki :)
-
+Przycisk chwilowy którego wciśniecie zwiera piny bliższe siebie (tak samo po dwóch stronach). Wystarczyłby 2 piny, ale są 4 żeby lepiej trzymało się płytki :)
+##### Parametry
+- wymiary 12x12x7,3mm.  
+- 4 pin. 
 # 
 # 
 #### Dioda LED zielona
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb5ToV2svfayvkFEODJulwK6WodHI8Qrb534G-zYm_1TRBZ2ZrBw&s)
 
 Półprzewodnik. Świecie tylko jak krótsza noga do GND, a dłuższa do pinu. Nie podłączać do GND i 5V po się spali :)
-
 ##### Parametry 
 - Zielona 
 - Dyfuzyjna 
