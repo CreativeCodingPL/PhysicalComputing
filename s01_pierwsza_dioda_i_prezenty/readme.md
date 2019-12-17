@@ -216,7 +216,7 @@ Półprzewodnik. Świecie tylko jak krótsza noga do GND, a dłuższa do pinu. N
 Można zrobić zabawkę dla kota, albo rysować wzory na suficie.
 #####  Parametry
 - Napięcie pracy: 5V 
-- Długości światłą: 650nm 
+- Długości światła: 650 nm 
 - Moc: 5mW - to sporo! **uwaga na oczy!**
 # 
 # 
@@ -225,7 +225,7 @@ Można zrobić zabawkę dla kota, albo rysować wzory na suficie.
 
 Zasilanie układu bez komputera - samo działa, tak Arduino dziką bez komputera :)
 
-Przewód to zasilania lub programowania.
+Przewód Micro USB do zasilania lub programowania.
 # 
 # 
 #### Płytka uniwersalna  
