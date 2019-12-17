@@ -8,7 +8,7 @@ Otrzymaliście na własność zestaw do eksperymentów na zajęciach i po zajęc
 
 # 
 #### Maker UNO - malezyjskie Arduino, świetne!
-![](https://www.cytron.io/image/cache/cache/41001-42000/41243/additional/b5b3-b2-6-2-0-1-1-800x800.jpg)
+![](https://ksr-ugc.imgix.net/assets/020/483/931/36dac5c036b77eac5bf85a26b23f0b8e_original.gif?w=680&fit=max&v=1520485057&auto=format&gif-q=50&q=92&s=6cafeb7a1e9447f19d8a729d2fe50367)
 
 Twórczo przetworzona oryginalna koncepcja Arduino, z przydatnymi  podczas nauki modyfikacjam. Dodatkowe 12 Led przy każdym pinie cyfrowym, dodatkowy przycisk na pinie 2, oraz głośniczek na pinie 8.
 
