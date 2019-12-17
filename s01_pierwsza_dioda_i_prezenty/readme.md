@@ -111,25 +111,28 @@ Pomiar ruchu obiektu w przestrzeni. Przyspieszenia i obroty.
 - Żyroskop GY-521
 # 
 # 
-#### Czujnik dźwięku - LM393
+#### Czujnik dźwięku 
 ![](https://abc-rc.pl/data/gfx/icons/small/0/1/6710.jpg)
 
 Detektor hałasu lub mikrofon
-
+##### Parametry
+- LM393
 - **Bez biblioteki**
 - Podłącza się pod pin cyfrowy (hałas) lub analogowy (mikrofon)
 # 
 # 
 #### Wyświetlacz LED 4 cyfry 
 ![](https://abc-rc.pl/data/gfx/icons/small/7/1/6717.jpg)
-Wyświetla cyfry, ale też można robić efekty specjalne, glitch itp.
 
+Wyświetla cyfry, ale też można robić efekty specjalne, glitch itp.
+##### Parametry
 - Dołączony sterownik TM1637
+- 4 x 7 segmentów
+- dwukropek 
 ##### Biblioteka
 - [podstawowa - TM1637](https://playground.arduino.cc/Main/TM1637/)
 - [fajniejsza - bremme/arduino-tm1637](https://github.com/bremme/arduino-tm1637)
 # 
-
 # 
 #### Czujnik optyczny szczelinowy - LM393
 ![](https://abc-rc.pl/data/gfx/icons/small/2/5/7652.jpg)
