@@ -264,4 +264,12 @@ Jakoś to wszytko trzeba połączyć. Przewody ze złączami. Możliwość szybk
 - 10cm - męsko-żeńskie w taśmie
 - 20cm - męsko-męsko luzem
 # 
+# 
+#### Goldpin
+![](https://static4.abc-rc.pl/pol_is_Listwa-kolkowa-2-54mm-20-pinow-10-szt-goldpin-do-ukladow-elektronicznych-5432.jpg)
+
+Listwa z metalowymi kołkami do podłączania kabli z wejściem żeńskim lub wtyczek.
+
+W zastawie kilka sztuk o różnych długościach. 
+# 
 
