@@ -114,9 +114,9 @@ Serwomechanizm ustawia się pod zadanym w kodzie kontem. Jest szybki. Potrzebuje
 - Materiał trybów: tworzywo
 - Złącze: servo JR
 - Sterowanie i zasilanie: 
--- brązowy - GND, 
--- pomarańczowy - 5V, 
--- żółty - pin cyfrowy 
+— brązowy - GND, 
+— pomarańczowy - 5V, 
+— żółty - pin cyfrowy 
 ##### Biblioteka 
 - [Servo](https://www.arduino.cc/en/reference/servo)
 # 
