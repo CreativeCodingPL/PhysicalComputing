@@ -24,7 +24,7 @@
 - Biblioteka i obiekt `Serwo`
 - `servo.attach()`, `servo.write()`
 
-## Przydatne linki
+## Materiały pomocnicze
 - [Więcej o serwomechanizmie](https://learn.adafruit.com/adafruit-arduino-lesson-14-servo-motors/) 
 - [Biblioteka Servo](https://www.arduino.cc/en/Reference/Servo)
 - [Wejścia analogowe](https://www.arduino.cc/en/Tutorial/AnalogInput)
