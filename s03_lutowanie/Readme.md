@@ -4,14 +4,15 @@
 
 ### Lutowanie
 - Jak poprawnie wykonywać luty
-- Trening lutowania na proto płytkach: wlutowanie kabelków, wlutowywanie goldpin, usuwanie nadmiaru cyny.
-- ćwiczenie lutowania: wyświetlacz LCD i diody RGB 
-- Lutowanie kabli do silnika: odizolowanie i ocynowanie końca kabla, łączenie dwóch kabli, odsysanie cyny przy wlutowywaniu.
-
-## Praca domowa
-Brak
+- Trening lutowania na proto płytkach: wlutowanie przycisków, wlutowanie kabelków, wlutowywanie goldpin, łączenie ścieżek cyną, usuwanie nadmiaru cyny.
+- ćwiczenie lutowania na modułach: wyświetlacz LCD, diody RGB, barometr, akcelerometr 
+- Lutowanie kabli: odizolowanie i ocynowanie końca kabla
+(To do: łączenie dwóch kabli)
 
 ## Materiały pomocnicze 
-- [Przewodnik lutowania z Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering)
 - [Soldering (cool!) video)](https://youtu.be/QKbJxytERvg)
+- [Przewodnik lutowania z Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering)
 
+## Schematy
+
+![przyciski](przyciski.png)
