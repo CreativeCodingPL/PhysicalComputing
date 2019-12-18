@@ -102,6 +102,25 @@ Pozwala na poruszanie ze zmienną prędkością i umiarkowaną precyzją, za to 
 - Wymaga sterownika np. L9110
 # 
 # 
+#### Serwo 
+![](https://static2.abc-rc.pl/pol_is_Serwo-TowerPro-SG-90-9g-1-8kg-cm-serwo-SG90-788.jpg)
+
+Serwomechanizm ustawia się pod zadanym w kodzie kontem. Jest szybki. Potrzebuje niewiele czasu by przesunąć owczych do zadanego konta. Jest lekki ale silny :)
+##### Parametry
+- Moment: 1,8 kg/cm
+- Waga: 9g
+- Prędkość: 0,12 s/60st
+- Napięcie pracy: 4,5V - 6V
+- Materiał trybów: tworzywo
+- Złącze: servo JR
+- Sterowanie i zasilanie: 
+-- brązowy - GND, 
+-- pomarańczowy - 5V, 
+-- żółty - pin cyfrowy 
+##### Biblioteka 
+- [Servo](https://www.arduino.cc/en/reference/servo)
+# 
+# 
 #### Akcelerometr i żyroskop 3-osiowe XYZ - MPU-6050 i GY-521
 ![](https://abc-rc.pl/data/gfx/icons/small/2/7/6572.jpg)
 
