@@ -151,6 +151,7 @@ Może być używany np. jako enkoder (pomiar prędkości obrotu lub liczby obrot
 WoW! Jest kolorowo! Cztery diody kolorowe sterowane za pomocą jednego pinu. 
 ##### Parametry
 - Sterownik **WS2812**
+- Układ kolorów **GRB**
 - Model całego układu CJMCU2814
 - Model diody 5050
 ##### Biblioteki
