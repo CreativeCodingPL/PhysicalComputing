@@ -22,16 +22,16 @@ void loop() {
   int redVal = map( sensorVal, 40, 700, 0, 255 );
   int blueVal = map( sensorVal, 40, 700, 255, 0 );
 
-  pixels.clear(); 
-  
+  pixels.clear(); // Set all pixel colors to 'off'
+  // The first NeoPixel is #0, second is 1, all the way up
+  // to the count of pixels minus one. 
   for(int i=0; i<NUMPIXELS; i++) { 
 
     pixels.setPixelColor(i, pixels.Color( redVal, 0 ,blueVal ) );
-    //delay(500); // Pause before next pass through loop
     
   }
 
-  pixels.show();
+  pixels.show(); // Send the updated pixel colors to the hardware.
 
    
 }

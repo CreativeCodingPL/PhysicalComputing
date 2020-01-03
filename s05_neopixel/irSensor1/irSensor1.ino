@@ -1,13 +1,16 @@
 
 
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
+	//rozpoczyna komunikację z komputerem 
+	//po porcie szeregowym z predkością 9600
+	//można podejrzeć programem odpalanym w arduino 
+	//przez lubę lub Tools->Serial Monitor
+	Serial.begin(9600);
 
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  Serial.println( analogRead(A0) );
+	//Sensor podłączony pod A0
+	Serial.println( analogRead(A0) );
 
 }
