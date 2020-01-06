@@ -1,6 +1,6 @@
 #include <Adafruit_NeoPixel.h>
 
-#define NUMPIXELS 4 
+#define NUMPIXELS 4
 #define NEOPIXEL_PIN 6
 
 #define BTN_1_PIN 2
@@ -20,7 +20,7 @@ int mode = 0;
 
 
 void setup() {
-  
+
   pixels.begin();
   Serial.begin(9600);
 
@@ -35,35 +35,35 @@ void loop() {
   Serial.println( digitalRead( BTN_1_PIN ) );
   Serial.println( digitalRead( BTN_2_PIN ) );
   Serial.println( digitalRead( BTN_3_PIN ) );
-  
-  if( mode == 0 ){
-  
+
+  if ( mode == 0 ) {
+
     activePixel ++;
-    if( activePixel == NUMPIXELS ){
+    if ( activePixel == NUMPIXELS ) {
       activePixel = 0;
     }
-    
+
     pixels.clear(); // Set all pixel colors to 'off'
-  
+
     // The first NeoPixel in a strand is #0, second is 1, all the way up
     // to the count of pixels minus one.
-    for(int i=0; i<NUMPIXELS; i++) { // For each pixel...
-  
+    for (int i = 0; i < NUMPIXELS; i++) { // For each pixel...
+
       // pixels.Color() takes RGB values, from 0,0,0 up to 255,255,255
       // Here we're using a moderately bright green color:
-      if( i == activePixel ){
-        pixels.setPixelColor(i, pixels.Color(255,255,255));
-      }else{
-        pixels.setPixelColor(i, pixels.Color(0,0,0));
+      if ( i == activePixel ) {
+        pixels.setPixelColor(i, 255, 255, 255);
+      } else {
+        pixels.setPixelColor(i, 0, 0, 0);
       }
-      
+
       delay(50); // Pause before next pass through loop
-      
+
     }
-     
+
   }
 
-  
+
 
   pixels.show();   // Send the updated pixel colors to the hardware.
 
