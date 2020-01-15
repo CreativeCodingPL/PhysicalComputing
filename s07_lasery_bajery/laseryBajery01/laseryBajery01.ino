@@ -3,7 +3,7 @@
 Servo lasery;
 
 void setup() {
-  lasery.attach(9);
+  lasery.attach(6);
   pinMode(11, OUTPUT);
 }
 
