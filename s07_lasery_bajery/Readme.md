@@ -6,6 +6,7 @@
 ### Tworzenie uchwytu do serwa w Fusion 360
 - Powtórzenie zasad robienia szkicu z wymiarowaniem
 - Przydatna technika z wkładaniem na Canvas rysunku wymiarowanego przedmiotu
+- [Model podstawki do pobrania](https://a360.co/35Ygvmi) 
 
 ![](laery_podstawa.png)
 
