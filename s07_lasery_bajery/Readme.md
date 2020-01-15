@@ -9,6 +9,8 @@
 
 ![](laery_podstawa.png)
 
+![](lasery.mov)
+
 ### [Dioda laserowa](https://github.com/CreativeCodingPL/PhysicalComputing/tree/2019/s01_pierwsza_dioda_i_prezenty#dioda-laserowa-czerwona) 
 - Można zrobić zabawkę dla kota, albo rysować wzory na suficie. Długości światła 650 nm, czyli czerwona. Moc 5mW - to sporo! uwaga na oczy!
 
@@ -21,6 +23,6 @@
 
 ## Schematy
 
-### neopixel_irSensor
+### Serwo i laser
 ![](lasery.png)
 
