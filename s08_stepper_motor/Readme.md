@@ -16,7 +16,7 @@ Jak działa czujnik szczelinowy: Poprzez emisję wiązki światła podczerwonego
 
 ## Konstrukcja w Fusion 360
 Tarcza i wskazówka oraz wycięcie na sinik i czujnik.
-- [Plik do edycji w Fusion 360](https://a360.co/2NCbt8u)
+- [Plik do edycji w Fusion 360](https://a360.co/2NCbt8u) 
 - [DXF gotowy do cięcia na laserze](tarczaR14.dxf)
 
 ![](tarcza.png)
