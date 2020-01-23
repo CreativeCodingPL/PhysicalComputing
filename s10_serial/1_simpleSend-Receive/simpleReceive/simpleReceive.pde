@@ -37,7 +37,6 @@ void serialEvent(Serial p) {
   }
   
   
-  
 } 
 
 void draw(){
