@@ -157,9 +157,9 @@ Półprzewodnik. Świecie tylko jak krótsza noga do GND, a dłuższa do pinu. N
 # 
 # 
 #### Płytka stykowa
-![](foto/plytka-stykowa.jpg)
+![](foto/plytka-stykowa.png)
 
-Posłuży do tworzenia obwodów bez lutowania. Otowry wewnętrznier połączone, w każdej kolumnie (1,2,3,4,…,30) po pięć dziurek (a,b,c,d,e) oraz (f,g,h,i,j) jak zaznaczone na zdjęciu powyżej. Linie zasilania `+/-` połączone w poziomie. 
+Posłuży do tworzenia obwodów bez lutowania. Otowry wewnętrznier połączone, w każdej kolumnie `1,2,3,4,…,30` po pięć dziurek `a,b,c,d,e` oraz `f,g,h,i,j` jak zaznaczone na zdjęciu powyżej. Linie zasilania `+/-` połączone w poziomie. 
 ##### Parametry
 - 400 otworów w zewnętrznymi stykami
 # 
