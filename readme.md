@@ -55,6 +55,7 @@ Pozawala na bardzo precyzyjne i płynne poruszanie. Świetne nadaje się do pły
 # 
 #### Serwo 
 ![](foto/sg90.png)
+
 Serwomechanizm ustawia się pod zadanym w kodzie kontem. Jest szybki. Potrzebuje niewiele czasu by przesunąć owczych do zadanego konta. Jest lekki ale silny :)
 ##### Parametry
 - Moment: 1,8 kg/cm
@@ -71,14 +72,16 @@ Serwomechanizm ustawia się pod zadanym w kodzie kontem. Jest szybki. Potrzebuje
 - [Servo](https://www.arduino.cc/en/reference/servo)
 # 
 # 
-#### Czujnik dźwięku 
-![](https://abc-rc.pl/data/gfx/icons/small/0/1/6710.jpg)
+#### Czujnik dźwięku - mikrofon - Iduino ST1146 
+![](foto/Iduino-ST1146.png)
 
-Detektor hałasu lub mikrofon
+Detektor hałasu lub mikrofon. Posiada dwa wyjścia: 
+- analogowe A0 - umożliwiające pomiar natężenia sygnału oraz 
+- cyfrowe D0 - zmieniające stan po przekroczeniu ustalonego poziomu.
 ##### Parametry
-- LM393
 - **Bez biblioteki**
 - Podłącza się pod pin cyfrowy (hałas) lub analogowy (mikrofon)
+- [Strona poroducenta](http://www.openplatform.cc/index.php/home/index/details/apiid/192)
 # 
 # 
 #### LED RGB (full color)
