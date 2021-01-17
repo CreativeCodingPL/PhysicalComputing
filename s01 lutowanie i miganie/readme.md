@@ -26,6 +26,9 @@ Twórczo przetworzona oryginalna koncepcja Arduino, z przydatnymi  podczas nauki
 - Wgrywanie kodu na Arduino, wygór kłytki, portu.
 - Miganie diodami wlutowanymi w Maker Uno
 - Beep! Beep!
+- Pierścień LED RGB 7 x WS2812 5050
+![](../foto/pierscien-led-rgb-7-x-ws2812-5050.jpg)
+- Adafruit NeoPixel Library
 
 ## Materiały pomocnicze 
 - [Soldering (cool!) video)](https://youtu.be/QKbJxytERvg)
