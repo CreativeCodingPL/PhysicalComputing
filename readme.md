@@ -34,7 +34,7 @@ Omijanie przeszkód przez robota, wykrywanie obecności człowieka w konkretnym 
 - [New Ping](https://bitbucket.org/teckel12/arduino-new-ping/wiki/Home)
 # 
 # 
-#### Sterownik do silnika krokowego - ULN2003 V3
+#### Sterownik ULN2003 i silnik krokowy 28BYJ-48
 ![](foto/stepper.png)
 
 Steruje silnikiem krokowym za pomocą 4 pinów cyfrowych.
@@ -44,8 +44,6 @@ Najłatwiej używać z biblioteką, ale dla zaawansowanych można też bez.
 - [polecana AccelStepper](http://www.airspayce.com/mikem/arduino/AccelStepper/index.html)
 # 
 #### Silnik krokowy - 24BYJ48-N08W
-![](https://abc-rc.pl/data/gfx/icons/small/1/7/12371.jpg)
-
 Pozawala na bardzo precyzyjne i płynne poruszanie. Świetne nadaje się do płynnego poruszania szczególnie z małą prędkością.
 #####  Parametry
 - Napięcie: 5V
