@@ -43,7 +43,7 @@ Najłatwiej używać z biblioteką, ale dla zaawansowanych można też bez.
 - [podstawowa Stepper](https://www.arduino.cc/en/reference/stepper)
 - [polecana AccelStepper](http://www.airspayce.com/mikem/arduino/AccelStepper/index.html)
 # 
-#### Silnik krokowy - 24BYJ48-N08W
+#### Silnik krokowy 28BYJ-48
 Pozawala na bardzo precyzyjne i płynne poruszanie. Świetne nadaje się do płynnego poruszania szczególnie z małą prędkością.
 #####  Parametry
 - Napięcie: 5V
@@ -54,8 +54,7 @@ Pozawala na bardzo precyzyjne i płynne poruszanie. Świetne nadaje się do pły
 # 
 # 
 #### Serwo 
-![](https://static2.abc-rc.pl/pol_is_Serwo-TowerPro-SG-90-9g-1-8kg-cm-serwo-SG90-788.jpg)
-
+![](sg90.png)
 Serwomechanizm ustawia się pod zadanym w kodzie kontem. Jest szybki. Potrzebuje niewiele czasu by przesunąć owczych do zadanego konta. Jest lekki ale silny :)
 ##### Parametry
 - Moment: 1,8 kg/cm
