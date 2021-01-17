@@ -11,7 +11,9 @@ Pierwsze zajęcia offlinie. Zaczeliśmy of rozdania prezentów :)
 ### Lutowanie
 - Jak poprawnie wykonywać luty.
 - Trening lutowania na module pierściania LED. Dolutowanie goldpin (nie wszysko złoto co … ;)).
-![](goldpin.jpg);
+
+![](goldpin.jpg)
+
 - [Soldering (cool!) video)](https://youtu.be/QKbJxytERvg)
 - [Przewodnik lutowania z Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering)
 
@@ -27,12 +29,18 @@ Twórczo przetworzona oryginalna koncepcja Arduino, z przydatnymi  podczas nauki
 - Miganie diodami wlutowanymi w Maker Uno, instrukcje `pinMode();` `digitalWrite(7, HIGH);` `delay(400);`
 - Beep! Beep! instrukcja `tone(8, 440);`
 - Pierścień `LED RGB 7 x WS2812 5050`
+
 ![](../foto/pierscien-led-rgb-7.jpg)
+
 - `Adafruit NeoPixel` Library, do obsługi `LED WS2812` zwanych też `NeoPixel`
 - Jak instalować biblioteki: Arduino IDE, wybrać w menu `Sketch > Include Library > Manage Libraries`, a następnie wyszukać bibliotekę wpisując np. neopixel
+
 ![](library_manager.png)
+
 - Podłączenie Neopixel do Arduino
+
 ![](led-arduino.jpg)
+
 - Przykładowy kod `strandtest`. Wymaga zainstalowania biblioteki `Adafruit NeoPixel`
 
 
