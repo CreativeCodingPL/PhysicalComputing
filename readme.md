@@ -99,7 +99,7 @@ WoW! Jest kolorowo! Cztery diody kolorowe sterowane za pomocą jednego pinu.
 # 
 # 
 #### Czujnik odbiciowy
-![](foto/TCRT5000.webp)
+![](foto/TCRT5000.png)
 
 Wykrywa za pomocą światła podczerwonego przeszkody w niewielkich odległościach. Działa **bez biblioteki**
 ##### Parametry
