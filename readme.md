@@ -24,7 +24,7 @@ Twórczo przetworzona oryginalna koncepcja Arduino, z przydatnymi  podczas nauki
 # 
 # 
 #### Czujnik ultradźwiękowy - HC-SR04  
-![](https://abc-rc.pl/data/gfx/icons/small/1/3/6231.jpg)
+![](foto/HC-SR04.png)
 
 Ultradźwiękowy pomiar odległości 2 cm - 200 cm. 
 ##### Zastosowanie 
@@ -35,7 +35,7 @@ Omijanie przeszkód przez robota, wykrywanie obecności człowieka w konkretnym 
 # 
 # 
 #### Sterownik do silnika krokowego - ULN2003 V3
-![](https://abc-rc.pl/data/gfx/icons/small/2/2/6522.jpg)
+![](foto/stepper.png)
 
 Steruje silnikiem krokowym za pomocą 4 pinów cyfrowych.
 Najłatwiej używać z biblioteką, ale dla zaawansowanych można też bez.
