@@ -85,13 +85,13 @@ Detektor hałasu lub mikrofon
 # 
 # 
 #### LED RGB (full color)
-![](https://abc-rc.pl/data/gfx/icons/small/7/7/9177.jpg)
+![](foto/pierscien-led-rgb-7.jpg)
 
 WoW! Jest kolorowo! Cztery diody kolorowe sterowane za pomocą jednego pinu. 
 ##### Parametry
 - Sterownik **WS2812**
 - Układ kolorów **GRB**
-- Model całego układu CJMCU2814
+- Model całego układu CJMCU-2812-7
 - Model diody 5050
 ##### Biblioteki
 - [FastLED Animation Library](http://fastled.io)
@@ -99,12 +99,13 @@ WoW! Jest kolorowo! Cztery diody kolorowe sterowane za pomocą jednego pinu.
 # 
 # 
 #### Czujnik odbiciowy
-![](https://abc-rc.pl/data/gfx/icons/small/6/0/10006.jpg)
+![](foto/TCRT5000.webp)
 
 Wykrywa za pomocą światła podczerwonego przeszkody w niewielkich odległościach. Działa **bez biblioteki**
 ##### Parametry
-- zakres odległości: 0,2 cm - 60 cm
-- Podłącza się po pinu analogowego
+- Zakres odległości: 0,2 cm - 10 cm
+- Podłącza się po pinu analogowego wyjście A0 lub cyfrowego wyjście D0
+- Moduł czujnika TCRT5000 
 # 
 # 
 #### Fotorezystor 
