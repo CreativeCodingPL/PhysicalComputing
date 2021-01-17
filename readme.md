@@ -54,7 +54,7 @@ Pozawala na bardzo precyzyjne i płynne poruszanie. Świetne nadaje się do pły
 # 
 # 
 #### Serwo 
-![](sg90.png)
+![](foto/sg90.png)
 Serwomechanizm ustawia się pod zadanym w kodzie kontem. Jest szybki. Potrzebuje niewiele czasu by przesunąć owczych do zadanego konta. Jest lekki ale silny :)
 ##### Parametry
 - Moment: 1,8 kg/cm
