@@ -131,6 +131,20 @@ Przycisk chwilowy którego wciśniecie zwiera piny bliższe siebie (tak samo po 
 - 4 pin. 
 # 
 # 
+#### OLED 0.91" 128x32px I2C
+![](foto/oled.png)
+
+Wyświetlacz OLED o przekątnej 0.91" i rozdzielczości 128 x 32 px. kolor wyświetlanych znaków - biały. Ekran oparty na sterowniku SSD1306 pracuje z napięciami 3,3 V oraz 5 V, komunikuje się poprzez interfejs I2C
+##### Parametry
+- Sterownik **SSD1306**
+- rozdzielczości `128 x 32 px`
+- Połączeni z Arduino przez `I2C` (SDA, SCL)
+- napięcie 5V lub 3.3V
+##### Biblioteki
+- [Adafruit SSD1306](https://github.com/adafruit/Adafruit_SSD1306)
+- [U8g2: Library for monochrome displays](https://github.com/olikraus/u8g2)
+# 
+# 
 #### Dioda LED zielona
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb5ToV2svfayvkFEODJulwK6WodHI8Qrb534G-zYm_1TRBZ2ZrBw&s)
 
@@ -143,21 +157,18 @@ Półprzewodnik. Świecie tylko jak krótsza noga do GND, a dłuższa do pinu. N
 # 
 # 
 #### Płytka stykowa
-![](plytka-stykowa.jpg)
+![](foto/plytka-stykowa.jpg)
 
-Połączone w każdej kolumnie po pięć dziurek jak zaznaczone na pomarańczowo na zdjęciu powyżej.
-##### Zastosowanie
-Posłuży do tworzenia obwodów bez lutowania.
+Posłuży do tworzenia obwodów bez lutowania. Otowry wewnętrznier połączone, w każdej kolumnie (1,2,3,4,…,30) po pięć dziurek (a,b,c,d,e) oraz (f,g,h,i,j) jak zaznaczone na zdjęciu powyżej. Linie zasilania `+/-` połączone w poziomie. 
 ##### Parametry
-- 170 otworów w zewnętrznymi stykami
+- 400 otworów w zewnętrznymi stykami
 # 
 # 
 #### Przewody 
-![](https://abc-rc.pl/data/gfx/icons/small/1/6/8761.jpg)
+![](foto/kable-MF.png)
 
 Jakoś to wszytko trzeba połączyć. Przewody ze złączami. Możliwość szybkiego łączenia bez lutowania, bezpośrednio Arduino z czujnikami lub za pomocą płytki stykowej.
 ##### Rodzaj przewodów w zestawie
 - 20cm - męsko-żeńskie w taśmie
-- 10cm - męsko-żeńskie w taśmie
-- 20cm - męsko-męsko luzem
+- 20cm - męsko-męskie w taśmie
 # 
