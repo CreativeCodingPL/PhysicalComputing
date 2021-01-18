@@ -109,17 +109,15 @@ Wykrywa za pomocą światła podczerwonego przeszkody w niewielkich odległości
 # 
 # 
 #### Fotorezystor 
-![](https://abc-rc.pl/data/gfx/icons/small/7/1/7917.jpg)
+![](foto/fotorezystor.png)
 
-Nas ulubiony czujnik. Proste działanie, a duże możliwości i nieograniczona pomysłowość do ztosowań.
+Nasz ulubiony czujnik. Wykrywa natężenie światła. Proste działanie, a można uzyskać ciekawą dynamikę np. sprzęgając sygnał z fotorezystora z reakcją serwomechanizmu.
 ##### Parametry
-- Model GL5528 lub LDR5528
-- [Specyfikacja pełna](https://cdn.sparkfun.com/datasheets/Sensors/LightImaging/SEN-09088.pdf)
-- Średnica 5mm 
-- Opór przy typowym oświetleniu 10k-20k
+- Średnica 5 mm.
+- Opór przy typowym oświetleniu 10k-20k.
 - Opór zmienia się w zależności od natężenia padającego światłą.
 - Podłącza się do pinu analogowego.
-- Pamiętajcie o `INPUT_PULLUP`
+- Sprytnie bez rezystora z `INPUT_PULLUP`.
 # 
 # 
 #### Przycisk chwilowy
