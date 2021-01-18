@@ -213,6 +213,12 @@ Element półprzewodnikowy pozwalający m.in. sterować elementami, które pobie
 - Obudowa: TO-92
 # 
 # 
+#### Silnik 3V z wiatraczkiem
+![](foto/silnik.png)
+
+Choć niewielki, pobiera za dużo prądu jak na zasilanie pbepośrednio z pinu, tak jak można zrobić to z diodą LED. Można podłaczyć do za pomocą `transystora`.
+# 
+# 
 #### Przewody 
 ![](foto/kable-MF.png)
 
