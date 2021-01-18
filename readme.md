@@ -123,7 +123,7 @@ Nas ulubiony czujnik. Proste działanie, a duże możliwości i nieograniczona p
 # 
 # 
 #### Przycisk chwilowy
-![](https://static2.abc-rc.pl/pol_ps_Zestaw-przyciskow-do-Arduino-25-szt-switch-12x12x7-3mm-12441_1.jpg)
+![](foto/przyciski.phg)
 
 Przycisk chwilowy którego wciśniecie zwiera piny bliższe siebie (tak samo po dwóch stronach). Wystarczyłby 2 piny, ale są 4 żeby lepiej trzymało się płytki :)
 ##### Parametry
@@ -145,15 +145,38 @@ Wyświetlacz OLED o przekątnej 0.91" i rozdzielczości 128 x 32 px. kolor wyśw
 - [U8g2: Library for monochrome displays](https://github.com/olikraus/u8g2)
 # 
 # 
-#### Dioda LED zielona
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb5ToV2svfayvkFEODJulwK6WodHI8Qrb534G-zYm_1TRBZ2ZrBw&s)
+####  Diody LED 5 mm (9 szt.) - po 3 szt. czerwonych, zielonych i żółtych diod.
+![](foto/diody.png)
 
-Półprzewodnik. Świecie tylko jak krótsza noga do GND, a dłuższa do pinu. Nie podłączać do GND i 5V po się spali :)
+Półprzewodnik. Świecie tylko jak krótsza noga do GND, a dłuższa do pinu. Nie podłączać bezpośrednio do GND i 5V po się spali :)
 ##### Parametry 
-- Zielona 
-- Dyfuzyjna 
-- Średnica 5 mm 
-- Pobór prądu 20 mA
+
+###### dioda żółta:
+- Obudowa: DIP 5 mm
+- Długość emitowanej fali: 589 nm
+- Jasność: 40 mcd
+- Kąt świecenia: 60 °
+- Temp. pracy: od -40 °C do +80 °C
+- Prąd If: 25 mA
+- Napięcie Vf: 2,0 V
+
+###### dioda zielona:
+- Obudowa: DIP 5 mm
+- Długość emitowanej fali: 571 nm
+- Jasność: 100 - 150 mcd
+- Kąt świecenia: 50°
+- Temp. pracy: od-40 °C do +80 °C
+- Prąd If: 20 mA
+- Napięcie Vf: 2,3 - 2,5 V
+
+###### dioda czerwona:
+- Obudowa: DIP 5 mm
+- Długość emitowanej fali: 625-645 nm
+- Jasność: 450 - 800 mcd
+- Kąt świecenia : 70 °
+- Temp. pracy: od -40 °C do +80 °C
+- Prąd If: 20mA
+- Napięcie Vf: 2,0 - 2,3 V
 # 
 # 
 #### Płytka stykowa
@@ -164,6 +187,32 @@ Posłuży do tworzenia obwodów bez lutowania. Otowry wewnętrznier połączone,
 - 400 otworów w zewnętrznymi stykami
 # 
 # 
+#### Rezystory - 10 sztuk 220 Ω i po 5 sztuk 1 kΩ i 10 kΩ.
+![](foto/rezystory.png)
+
+Rezystor inaczej opornik. Ograniczna przepływ prądu. Np. 220Ω (Ohn) widoczy na zdjęciu ([kolory oznaczją wartość 220](https://resistorcolorcodecalc.com)) świetnie nadaje się do ograczniczenia prądu diody do wymagancych 20 mA. Można też robić dzielnik napięczia z fotorezystorem przy pomocy rezystora 10 kΩ itp.
+##### Parametry
+- moc 0,25W
+- dokładność 5%
+# 
+# 
+#### Potencjometr obrotowy 10kΩ
+![](foto/potencjometr.png)
+
+Proste pokrętło podłączone do wyprowadzeń analogowych pozwala płynnie regulować coś (prędkość, położenie serwa itp.). Kont obrotu pokrętła odczytujmemy jako wartość na wejściu analogowym. 
+# 
+# 
+#### Tranzystor 2N2222
+![](foto/2n2222.png)
+
+Element półprzewodnikowy pozwalający m.in. sterować elementami, które pobierają większy prąd niż może dostarczyć pojedynczy pin mikrokontrolera.
+##### Parametry
+- Typ tranzystora: NPN
+- Napięcie: 40 V
+- Prąd: 0,6 A
+- Obudowa: TO-92
+# 
+# 
 #### Przewody 
 ![](foto/kable-MF.png)
 
@@ -172,6 +221,3 @@ Jakoś to wszytko trzeba połączyć. Przewody ze złączami. Możliwość szybk
 - 20cm - męsko-żeńskie w taśmie
 - 20cm - męsko-męskie w taśmie
 # 
-
-
-https://www.youtube.com/watch?v=G6ISh9Mv5JY&feature=youtu.be
