@@ -84,10 +84,10 @@ Detektor hałasu lub mikrofon. Posiada dwa wyjścia:
 - [Strona poroducenta](http://www.openplatform.cc/index.php/home/index/details/apiid/192)
 # 
 # 
-#### LED RGB (full color)
+#### Neopixele, czyli diody LED RGB (full color) ze sterownikami 
 ![](foto/pierscien-led-rgb-7.jpg)
 
-WoW! Jest kolorowo! Cztery diody kolorowe sterowane za pomocą jednego pinu. 
+WoW! Jest kolorowo! Siedem diod RGB, a każda 16 mln kolorów i wszysko sterowane za pomocą jednego pinu, bo każda dioda ma swój sterownik WS2812. 
 ##### Parametry
 - Sterownik **WS2812**
 - Układ kolorów **GRB**
