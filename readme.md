@@ -4,7 +4,7 @@ Zajęcia poświęcone są osadzeniu kodu w kontekście fizycznym. Połączenie �
 Ponadto opanujemy podstawy programowania cyfrowych układów elektronicznych. Nauczymy się tworzyć obwody elektroniczne reagujące na bodźce z otaczającego środowiska i wpływające na te środowisko poprzez dźwięk, światło i oddziaływania mechaniczne.
 Opanujemy popularną platformę Arduino służącą do tworzenia szybkich prototypów, a skonstruowaną z myślą o artystkach i projektantach. Nauczymy się używać podstawowego zestawu sensorów i aktuatorów.
 
-Do tego otrzymaliście od nas zestawy z odjazdowym malezyjskim Maker Uno i zestawem komponentów, seniorów i aktuatorów. Niektóre gotowe do użycia, inne wymagające dolutowania gold pinów. Jednym słowem wszystko co niezbędne, żeby nauczyć się podstaw konstruowania obwodów elektorniczny do tworzenia instalacji.
+Do tego otrzymaliście od nas zestawy z odjazdowym malezyjskim `Maker Uno` i zestawem komponentów, seniorów i aktuatorów. Niektóre gotowe do użycia, inne wymagające dolutowania gold pinów. Jednym słowem wszystko co niezbędne, żeby nauczyć się podstaw konstruowania obwodów elektorniczny do tworzenia instalacji.
    
 ## Zestawy rozdane
 
@@ -188,7 +188,7 @@ Posłuży do tworzenia obwodów bez lutowania. Otowry wewnętrznier połączone,
 #### Rezystory - 10 sztuk 220 Ω i po 5 sztuk 1 kΩ i 10 kΩ.
 ![](foto/rezystory.png)
 
-Rezystor inaczej opornik. Ograniczna przepływ prądu. Np. 220Ω (Ohn) widoczy na zdjęciu ([kolory oznaczją wartość 220](https://resistorcolorcodecalc.com)) świetnie nadaje się do ograczniczenia prądu diody do wymagancych 20 mA. Można też robić dzielnik napięczia z fotorezystorem przy pomocy rezystora 10 kΩ itp.
+Rezystor inaczej opornik. Ogranicza przepływ prądu. Np. 220Ω (Ohm) widoczny na zdjęciu ([kolory oznaczają wartość 220](https://resistorcolorcodecalc.com)) świetnie nadaje się do ograniczenia prądu diody do wymaganych 20 mA. Można też robić dzielnik napięcia z fotorezystorem przy pomocy rezystora 10 kΩ itp.
 ##### Parametry
 - moc 0,25W
 - dokładność 5%
@@ -197,7 +197,7 @@ Rezystor inaczej opornik. Ograniczna przepływ prądu. Np. 220Ω (Ohn) widoczy n
 #### Potencjometr obrotowy 10kΩ
 ![](foto/potencjometr.png)
 
-Proste pokrętło podłączone do wyprowadzeń analogowych pozwala płynnie regulować coś (prędkość, położenie serwa itp.). Kont obrotu pokrętła odczytujmemy jako wartość na wejściu analogowym. 
+Proste pokrętło podłączone do wyprowadzeń analogowych pozwala płynnie regulować coś (prędkość, położenie serwa itp.). Kąt obrotu pokrętła odczytujemy jako wartość na wejściu analogowym. 
 # 
 # 
 #### Tranzystor 2N2222
@@ -214,7 +214,7 @@ Element półprzewodnikowy pozwalający m.in. sterować elementami, które pobie
 #### Silnik 3V z wiatraczkiem
 ![](foto/silnik.png)
 
-Choć niewielki, pobiera za dużo prądu jak na zasilanie pbepośrednio z pinu, tak jak można zrobić to z diodą LED. Można podłaczyć do za pomocą `transystora`.
+Choć niewielki, pobiera za dużo prądu jak na zasilanie bezpośrednio z pinu, tak jak można zrobić to z diodą LED. Można podłączyć do za pomocą `tranzystora`.
 # 
 # 
 #### Przewody 
