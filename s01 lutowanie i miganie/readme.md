@@ -1,10 +1,14 @@
 # Sezon 01 - lutowanie i miganie
 
-Pierwsze zajęcia offlinie. Zaczęliśmy of rozdania prezentów :)
+![](offline01.jpg)
+
+Pierwsze zajęcia offlinie. 
 
 ## Prezent
 
 ![](zestaw.jpg)
+
+Zaczęliśmy of rozdania prezentów :)
 
 ## Poruszone zagadnienia
 
