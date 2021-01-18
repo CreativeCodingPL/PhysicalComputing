@@ -178,7 +178,7 @@ Półprzewodnik. Świecie tylko jak krótsza noga do GND, a dłuższa do pinu. N
 # 
 # 
 #### Płytka stykowa zwana też [breadboard](https://en.wikipedia.org/wiki/Breadboard)
-![](foto/plytka-stykowa.png) ![](foto/bread.png)
+![](foto/plytka-stykowa.png) ![](foto/breadbord-conn.png)
 
 Posłuży do tworzenia obwodów bez lutowania. Otowry wewnętrznier połączone, w każdej kolumnie `1,2,3,4,…,30` po pięć dziurek `a,b,c,d,e` oraz `f,g,h,i,j` jak zaznaczone na zdjęciu powyżej. Linie zasilania `+/-` połączone w poziomie. 
 ##### Parametry
