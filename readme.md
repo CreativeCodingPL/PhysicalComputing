@@ -123,7 +123,7 @@ Nas ulubiony czujnik. Proste działanie, a duże możliwości i nieograniczona p
 # 
 # 
 #### Przycisk chwilowy
-![](foto/przyciski.phg)
+![](foto/przyciski.png)
 
 Przycisk chwilowy którego wciśniecie zwiera piny bliższe siebie (tak samo po dwóch stronach). Wystarczyłby 2 piny, ale są 4 żeby lepiej trzymało się płytki :)
 ##### Parametry
