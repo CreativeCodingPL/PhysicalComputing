@@ -146,7 +146,7 @@ Wyświetlacz OLED o przekątnej 0.91" i rozdzielczości 128 x 32 px. kolor wyśw
 ####  Diody LED 5 mm (9 szt.) - po 3 szt. czerwonych, zielonych i żółtych diod.
 ![](foto/diody.png)
 
-Półprzewodnik. Świecie tylko jak krótsza noga do GND, a dłuższa do pinu. Nie podłączać bezpośrednio do GND i 5V po się spali :)
+Półprzewodnik. Świecie tylko jak krótsza noga do GND, a dłuższa do pinu. Nie podłączać bezpośrednio do GND i 5V bo się spali :)
 ##### Parametry 
 
 ###### dioda żółta:
@@ -177,8 +177,8 @@ Półprzewodnik. Świecie tylko jak krótsza noga do GND, a dłuższa do pinu. N
 - Napięcie Vf: 2,0 - 2,3 V
 # 
 # 
-#### Płytka stykowa
-![](foto/plytka-stykowa.png)
+#### Płytka stykowa zwana też [breadboard](https://en.wikipedia.org/wiki/Breadboard)
+![](foto/plytka-stykowa.png) ![](foto/bread.png)
 
 Posłuży do tworzenia obwodów bez lutowania. Otowry wewnętrznier połączone, w każdej kolumnie `1,2,3,4,…,30` po pięć dziurek `a,b,c,d,e` oraz `f,g,h,i,j` jak zaznaczone na zdjęciu powyżej. Linie zasilania `+/-` połączone w poziomie. 
 ##### Parametry
