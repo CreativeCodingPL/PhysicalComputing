@@ -1,6 +1,6 @@
 # Sezon 01 - lutowanie i miganie
 
-Pierwsze zajęcia offlinie. Zaczeliśmy of rozdania prezentów :)
+Pierwsze zajęcia offlinie. Zaczęliśmy of rozdania prezentów :)
 
 ## Prezent
 
@@ -42,6 +42,10 @@ Twórczo przetworzona oryginalna koncepcja Arduino, z przydatnymi  podczas nauki
 ![](led-arduino.jpg)
 
 - Przykładowy kod `strandtest`. Wymaga zainstalowania biblioteki `Adafruit NeoPixel`
+
+- Na koniec zajęć przykład z POV (Persistence of Vision) `MakerUno_POV`
+
+![](POV.png)
 
 
 

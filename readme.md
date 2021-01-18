@@ -172,3 +172,6 @@ Jakoś to wszytko trzeba połączyć. Przewody ze złączami. Możliwość szybk
 - 20cm - męsko-żeńskie w taśmie
 - 20cm - męsko-męskie w taśmie
 # 
+
+
+https://www.youtube.com/watch?v=G6ISh9Mv5JY&feature=youtu.be
