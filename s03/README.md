@@ -31,6 +31,7 @@
 
 - [Biblioteka NewPing](https://playground.arduino.cc/Code/NewPing/)
 - [millis()](https://www.arduino.cc/reference/en/language/functions/time/millis/)
+- [Fritzing](https://fritzing.org/) - aplikacja do szkicowania schematów połączeń z jakiej korzystamy
 
 ## Praca domowa
 
