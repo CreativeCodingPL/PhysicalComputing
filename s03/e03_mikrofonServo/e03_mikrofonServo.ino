@@ -4,7 +4,7 @@
 Servo servo;
 
 
-// okno samplowania(50 mS = 20Hz)
+// okno samplowania(50 mS = 20Hz = 20 razy na sekunde)
 // czyli z jakiego okresu bedziemy zbierac probki z mikrofonu by oszacowac glosnosc
 const int sampleWindow = 50; 
 unsigned int sample;
