@@ -22,7 +22,13 @@ Połączanie tranzystora z silnikiem i Arduino
 
 Zmiana prędkości silnika kontrolowana [czujnikiem odbiciowym](https://github.com/CreativeCodingPL/PhysicalComputing#czujnik-odbiciowy)
 
+Co siedzi w czujniku odbiciowym
 
+![](TCRT5000.jpeg)
+
+Dodanie czujnika do układ z silnikiem i tranzystorem
+
+![](dc_speed_sens.png)
  
 ### Poruszanie silnikiem krokowym
 
