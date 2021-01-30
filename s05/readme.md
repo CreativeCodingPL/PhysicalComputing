@@ -34,7 +34,7 @@ Dodanie czujnika do układ z silnikiem i tranzystorem
 
 Silnik ustawia się pod zadanym w kodzie kątem. Dokładność jest zależna od trybu: **AccelStepper::FULL4WIRE** - *szybciej, ale mniej dokładnie* lub **AccelStepper::HALF4WIRE** - *wolniej, ale dokładniej*. Ten model silnika (24BYJ48-N08W) pokonuje 360 stopni (jeden obrót) w 32 krokach. Przekładnia 64:1. Czyli przy **HALF4WIRE** po naszemu półkroki na pełen ogród potrzebuje 2*32 kroki. Razy, z przekładnią daje to 64*64=4096 kroki na pełen obrót, czyli najmniejszy możliwy ruch kątowy wynosi 360/4096 = 0.088 stopnia = wow duża precyzja. Do kontroli silnika krokowego używamy biblioteki [AccelStepper](http://www.airspayce.com/mikem/arduino/AccelStepper/classAccelStepper.html).
 
-- [Wideo - Jak działa silnik krokowy na przykładzie 28BYJ-48](https://youtu.be/B86nqDRskVU)
+[Wideo - Jak działa silnik krokowy na przykładzie 28BYJ-48](https://youtu.be/B86nqDRskVU)
 
 Połączenie silnika krokowego ze sterownikiem i Arduino 
  
