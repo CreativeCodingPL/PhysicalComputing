@@ -1,5 +1,5 @@
 
-# Sezon 05 :: Tranzystor, silnik DC, stepper motor i czujnik odbiciowy
+# Sezon 05 - Tranzystor, silnik DC, stepper motor i czujnik odbiciowy
 
 ### Tranzystor NPN typu 2N222
 
