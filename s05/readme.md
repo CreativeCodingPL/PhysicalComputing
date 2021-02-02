@@ -26,6 +26,10 @@ Co siedzi w czujniku odbiciowym
 
 ![](TCRT5000.jpeg)
 
+Czujnika i Arduino
+
+![](uno_czujnik.png)
+
 Dodanie czujnika do układ z silnikiem i tranzystorem
 
 ![](dc_speed_sens.png)
