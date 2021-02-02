@@ -28,7 +28,7 @@ Co siedzi w czujniku odbiciowym
 
 Czujnika i Arduino
 
-![](uno_czujnik.png)
+![](uno_czujnik_new.png)
 
 Dodanie czujnika do układ z silnikiem i tranzystorem
 
