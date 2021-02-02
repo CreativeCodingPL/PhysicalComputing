@@ -51,6 +51,10 @@ Pozawala na bardzo precyzyjne i płynne poruszanie. Świetne nadaje się do pły
 - 4-fazowy
 - Przekładnia 1:64
 - Wymaga sterownika np. ULN2003
+- Wymiary poniżej:
+
+![](28BYJ-48-dims.png)
+
 # 
 # 
 #### Serwo 
