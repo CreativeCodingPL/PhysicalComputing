@@ -42,7 +42,7 @@ Silnik ustawia się pod zadanym w kodzie kątem. Dokładność jest zależna od 
 
 Połączenie silnika krokowego ze sterownikiem i Arduino 
  
-![](stepper_fritzing.jpg)
+![](uno_stepper.jpg)
 
 ## Materiały pomocnicze ekstra
 Na waszą specjalną prośbę o prądzie, napięciu, mocy i oporze.
