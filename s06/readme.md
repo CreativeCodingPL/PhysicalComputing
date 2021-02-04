@@ -62,5 +62,5 @@ Rozwiązanie w pliku `e05_steppery_dwa_pro_domowa` na zasadzie powielenia tego c
 
 ## Materiały pomocnicze
 
-Wyczerpujący opis zasady działania steppera typu 28byj48 
-[](https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/)
+Wyczerpujący opis zasady działania steppera typu 28byj48: 
+[Control 28BYJ-48 Stepper Motor with ULN2003 Driver & Arduino](https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/)
