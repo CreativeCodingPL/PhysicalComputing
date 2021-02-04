@@ -55,3 +55,14 @@ Podłączcie jednocześnie dwa steppery i czujnik odbiciowy. Najpierw pierwszy s
 Dla zachęty podpowiedź jak podłączyć dwa steppery :D
 
 ![](uno_stepper2.png)
+
+Wideo pokazujące efekt końcowy
+
+![](stepper_dwa_dom.mp4)
+
+Rozwiązanie w pliku `e05_steppery_dwa_pro_domowa` na zasadzie powielenia tego co najzajęciach i optymalna wersja w pliku `e05_steppery_dwa_pro_simple_domowa`
+
+## Materiały pomocnicze
+
+Wyczerpujący opis zasady działania steppera typu 28byj48 
+[](https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/)
