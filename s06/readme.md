@@ -56,9 +56,7 @@ Dla zachęty podpowiedź jak podłączyć dwa steppery :D
 
 ![](uno_stepper2.png)
 
-Wideo pokazujące efekt końcowy
-
-![](stepper_dwa_dom.mp4)
+[Wideo pokazujące efekt końcowy](stepper_dwa_dom.mp4)
 
 Rozwiązanie w pliku `e05_steppery_dwa_pro_domowa` na zasadzie powielenia tego co najzajęciach i optymalna wersja w pliku `e05_steppery_dwa_pro_simple_domowa`
 
