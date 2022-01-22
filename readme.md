@@ -60,7 +60,7 @@ Pozawala na bardzo precyzyjne i płynne poruszanie. Świetne nadaje się do pły
 #### Serwo 
 ![](foto/sg90.png)
 
-Serwomechanizm ustawia się pod zadanym w kodzie kontem. Jest szybki. Potrzebuje niewiele czasu by przesunąć owczych do zadanego konta. Jest lekki ale silny :)
+Serwomechanizm ustawia się pod zadanym w kodzie kontem. Jest szybki. Potrzebuje niewiele czasu by przesunąć owczych do zadanego konta. Jest lekki ale silny 1,8 kg/cm :)
 ##### Parametry
 - Moment: 1,8 kg/cm
 - Waga: 9g
@@ -87,11 +87,13 @@ Detektor hałasu. Układ posiada wyjście cyfrowe Out, które w momencie wykryci
 #### Neopixele, czyli diody LED RGB (full color) ze sterownikami 
 ![](foto/pierscien-led-rgb-7.jpg)
 
-WoW! Jest kolorowo! Siedem diod RGB, a każda 16 mln kolorów i wszysko sterowane za pomocą jednego pinu, bo każda dioda ma swój sterownik WS2812. 
+WoW! Jest kolorowo! Siedem diod RGB, a każda 16 mln kolorów i wszystko sterowane za pomocą jednego pinu, bo każda dioda ma indywiduany sterownik WS2812. 
+[Więcej na stronie sklepu Botland :: NeoPixel Jewel - pierścień LED RGB 7xWS2812 5050 - Adafruit 2226](https://botland.com.pl/lancuchy-i-matryce-led/2945-neopixel-jewel-pierscien-led-rgb-7xws2812-5050-adafruit-2226.html)
+
 ##### Parametry
 - Sterownik **WS2812**
 - Układ kolorów **GRB**
-- Model całego układu CJMCU-2812-7
+- Model całego układu **NeoPixel Jewel - - Adafruit 2226”
 - Model diody 5050
 ##### Biblioteki
 - [FastLED Animation Library](http://fastled.io)
@@ -108,6 +110,46 @@ Wykrywa za pomocą światła podczerwonego przeszkody w niewielkich odległości
 - Moduł czujnika TCRT5000 
 # 
 # 
+#### Czujnik ruchu PIR HC-SR501 - zielony
+![](foto/pir.png)
+
+Czujnik typu PIR pozwala na wykrywanie ruchu, np. wykorzystywany do wykrywania obecności człowieka. Działa **bez biblioteki**
+[więcej na stronie Botland](https://botland.com.pl/czujniki-ruchu/1655-czujnik-ruchu-pir-hc-sr501-zielony-5903351241359.html)
+##### Parametry
+- Napięcie zasilania VCC: od 4,5 V do 20 V
+- Zakres pomiarowy: maks. 7 m
+- Kąt widzenia: do 100°
+- Wyjście cyfrowe OUT: Stan wysoki - obiekt wykryty, Stan niski - brak obiektu
+
+# 
+# 
+#### Czujnik odbiciowy
+![](foto/TCRT5000.png)
+
+Wykrywa za pomocą światła podczerwonego przeszkody w niewielkich odległościach. Działa **bez biblioteki**
+##### Parametry
+- Zakres odległości: 0,2 cm - 10 cm
+- Podłącza się po pinu analogowego wyjście A0 lub cyfrowego wyjście D0
+- Moduł czujnika TCRT5000 
+
+# 
+# 
+#### MPU-6050 3-osiowy akcelerometr i żyroskop I2C 
+![](foto/MPU6050.png)
+
+Czujnik do pomiaru przyspieszeń oraz prędkości kątowej w trzech osiach. Jest połączeniem 3-osiowego akcelerometru i żyroskopu. Komunikuje się poprzez magistralę I2C.
+##### Parametry
+- Napięcie zasilania: od 3,0 V do 5,0 V
+- Napięcie pracy wyprowadzeń: od 3,0 V do 5,0 V
+- Trzy osie: X, Y, Z
+- Interfejs komunikacyjny: I2C (TWI) - 400 kHz
+- Rozdzielczość: 16-bitów dla każdej osi
+- Zakresy pomiarowe (konfigurowalne): Akcelerometr: ±2 g, ±4 g, ±8 g, ±16 g; Żyroskop: ±250 °/s, ±500 °/s, ±1000 °/s, ±2000 °/s
+##### Biblioteka 
+- [MPU6050](https://www.arduino.cc/reference/en/libraries/mpu6050/)
+
+# 
+# 
 #### Fotorezystor 
 ![](foto/fotorezystor.png)
 
@@ -120,19 +162,19 @@ Nasz ulubiony czujnik. Wykrywa natężenie światła. Proste działanie, a możn
 - Sprytnie bez rezystora z `INPUT_PULLUP`.
 # 
 # 
-#### Przycisk chwilowy
-![](foto/przyciski.png)
+#### Przycisk chwilowy (3 szt. Czerwony, zielony, niebieski)
+![](foto/switch.jpg)
 
 Przycisk chwilowy którego wciśniecie zwiera piny bliższe siebie (tak samo po dwóch stronach). Wystarczyłby 2 piny, ale są 4 żeby lepiej trzymało się płytki :)
 ##### Parametry
-- wymiary 12x12x7,3mm.  
+- wymiary 6x6x5mm.  
 - 4 pin. 
 # 
 # 
 #### OLED 0.91" 128x32px I2C
 ![](foto/oled.png)
 
-Wyświetlacz OLED o przekątnej 0.91" i rozdzielczości 128 x 32 px. kolor wyświetlanych znaków - biały. Ekran oparty na sterowniku SSD1306 pracuje z napięciami 3,3 V oraz 5 V, komunikuje się poprzez interfejs I2C
+Wyświetlacz OLED o przekątnej 0.91" i rozdzielczości 128 x 32 px. kolor wyświetlanych znaków - biały. Ekran oparty na sterowniku SSD1306 pracuje z napięciami 3,3 V oraz 5 V, komunikuje się poprzez interfejs I2C.
 ##### Parametry
 - Sterownik **SSD1306**
 - rozdzielczości `128 x 32 px`
@@ -143,10 +185,11 @@ Wyświetlacz OLED o przekątnej 0.91" i rozdzielczości 128 x 32 px. kolor wyśw
 - [U8g2: Library for monochrome displays](https://github.com/olikraus/u8g2)
 # 
 # 
-####  Diody LED 5 mm (9 szt.) - po 3 szt. czerwonych, zielonych i żółtych diod.
+####  Diody LED 5 mm (4 szt.) - czerwona, zielona, niebieska i żółta
 ![](foto/diody.png)
 
 Półprzewodnik. Świecie tylko jak krótsza noga do GND, a dłuższa do pinu. Nie podłączać bezpośrednio do GND i 5V bo się spali :)
+
 ##### Parametry 
 
 ###### dioda żółta:
@@ -175,6 +218,15 @@ Półprzewodnik. Świecie tylko jak krótsza noga do GND, a dłuższa do pinu. N
 - Temp. pracy: od -40 °C do +80 °C
 - Prąd If: 20mA
 - Napięcie Vf: 2,0 - 2,3 V
+
+###### dioda niebieska:
+- Obudowa: DIP 5 mm
+- Długość emitowanej fali: 470 nm
+- Jasność: 400-600 mcd
+- Kąt świecenia : 30° °
+- Temp. pracy: od -40 °C do +80 °C
+- Prąd If: 20mA
+- Napięcie Vf: 3,3 V
 # 
 # 
 #### Płytka stykowa zwana też [breadboard](https://en.wikipedia.org/wiki/Breadboard)
@@ -185,36 +237,10 @@ Posłuży do tworzenia obwodów bez lutowania. Otowry wewnętrznier połączone,
 - 400 otworów w zewnętrznymi stykami
 # 
 # 
-#### Rezystory - 10 sztuk 220 Ω i po 5 sztuk 1 kΩ i 10 kΩ.
-![](foto/rezystory.png)
-
-Rezystor inaczej opornik. Ogranicza przepływ prądu. Np. 220Ω (Ohm) widoczny na zdjęciu ([kolory oznaczają wartość 220](https://resistorcolorcodecalc.com)) świetnie nadaje się do ograniczenia prądu diody do wymaganych 20 mA. Można też robić dzielnik napięcia z fotorezystorem przy pomocy rezystora 10 kΩ itp.
-##### Parametry
-- moc 0,25W
-- dokładność 5%
-# 
-# 
 #### Potencjometr obrotowy 10kΩ
-![](foto/potencjometr.png)
+![](foto/potencjometr.jpg)
 
-Proste pokrętło podłączone do wyprowadzeń analogowych pozwala płynnie regulować coś (prędkość, położenie serwa itp.). Kąt obrotu pokrętła odczytujemy jako wartość na wejściu analogowym. 
-# 
-# 
-#### Tranzystor 2N2222
-![](foto/2n2222.png)
-
-Element półprzewodnikowy pozwalający m.in. sterować elementami, które pobierają większy prąd niż może dostarczyć pojedynczy pin mikrokontrolera.
-##### Parametry
-- Typ tranzystora: NPN
-- Napięcie: 40 V
-- Prąd: 0,6 A
-- Obudowa: TO-92
-# 
-# 
-#### Silnik 3V z wiatraczkiem
-![](foto/silnik.png)
-
-Choć niewielki, pobiera za dużo prądu jak na zasilanie bezpośrednio z pinu, tak jak można zrobić to z diodą LED. Można podłączyć do za pomocą `tranzystora`.
+Proste pokrętło podłączone do wyprowadzeń analogowych pozwala płynnie regulować coś (prędkość, położenie serwa itp.). Kąt obrotu pokrętła odczytujemy jako wartość na wejściu analogowym ‘OUT’. 
 # 
 # 
 #### Przewody 
@@ -222,6 +248,7 @@ Choć niewielki, pobiera za dużo prądu jak na zasilanie bezpośrednio z pinu, 
 
 Jakoś to wszytko trzeba połączyć. Przewody ze złączami. Możliwość szybkiego łączenia bez lutowania, bezpośrednio Arduino z czujnikami lub za pomocą płytki stykowej.
 ##### Rodzaj przewodów w zestawie
-- 20cm - męsko-żeńskie w taśmie
-- 20cm - męsko-męskie w taśmie
+- 10cm - męsko-żeńskie w taśmie - 20 szt.
+- 10cm - żeńsko-żeńskie w taśmie - 10 szt.
+- 20cm - męsko-męskie w taśmie - 10 szt.
 # 
