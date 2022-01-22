@@ -4,23 +4,23 @@ Zajęcia poświęcone są osadzeniu kodu w kontekście fizycznym. Połączenie �
 Ponadto opanujemy podstawy programowania cyfrowych układów elektronicznych. Nauczymy się tworzyć obwody elektroniczne reagujące na bodźce z otaczającego środowiska i wpływające na te środowisko poprzez dźwięk, światło i oddziaływania mechaniczne.
 Opanujemy popularną platformę Arduino służącą do tworzenia szybkich prototypów, a skonstruowaną z myślą o artystkach i projektantach. Nauczymy się używać podstawowego zestawu sensorów i aktuatorów.
 
-Do tego otrzymaliście od nas zestawy z odjazdowym malezyjskim `Maker Uno` i zestawem komponentów, seniorów i aktuatorów. Niektóre gotowe do użycia, inne wymagające dolutowania gold pinów. Jednym słowem wszystko co niezbędne, żeby nauczyć się podstaw konstruowania obwodów elektorniczny do tworzenia instalacji.
+Do tego otrzymaliście od nas zestawy z odjazdowym malezyjskim `Maker Nano` i zestawem komponentów, seniorów i aktuatorów. Niektóre gotowe do użycia, inne wymagające dolutowania gold pinów. Jednym słowem wszystko co niezbędne, żeby nauczyć się podstaw konstruowania obwodów elektorniczny do tworzenia instalacji.
    
 ## Zestawy rozdane
 
-![](zestaw.jpg)
+![](zestaw.png)
 
 ## Skład zestawu 
 Poniże szczegółowy opis elementów w zestawie, wraz z odesłaniami do bibliotek tam gdzie są one wymagane.
  
 # 
-#### Maker UNO - malezyjskie Arduino, świetne!
-![](https://ksr-ugc.imgix.net/assets/020/483/931/36dac5c036b77eac5bf85a26b23f0b8e_original.gif?w=680&fit=max&v=1520485057&auto=format&gif-q=50&q=92&s=6cafeb7a1e9447f19d8a729d2fe50367)
+#### Maker Nano - malezyjskie Arduino, świetne!
+![](maker-nano-pinout.png)
 
 Twórczo przetworzona oryginalna koncepcja Arduino, z przydatnymi  podczas nauki modyfikacjam. Dodatkowe 12 Led przy każdym pinie cyfrowym, dodatkowy przycisk na pinie 2, oraz głośniczek na pinie 8.
 
-- [Detale techniczne i drivery](https://www.cytron.io/c-arduino/c-arduino-main-board/p-maker-uno-simplifying-arduino-for-education) 
-- [Maker UNO: Simplifying Arduino for {Education}](https://makeruno.com.my)
+- [Detale techniczne i drivery](https://www.cytron.io/p-maker-nano-simplifying-arduino-for-projects) 
+
 # 
 # 
 #### Czujnik ultradźwiękowy - HC-SR04  
