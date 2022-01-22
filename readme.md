@@ -76,16 +76,12 @@ Serwomechanizm ustawia się pod zadanym w kodzie kontem. Jest szybki. Potrzebuje
 - [Servo](https://www.arduino.cc/en/reference/servo)
 # 
 # 
-#### Czujnik dźwięku - mikrofon - Iduino ST1146 
-![](foto/Iduino-ST1146.png)
+#### Czujnik dźwięku 
+![](foto/czujnik-halasu.jpg)
 
-Detektor hałasu lub mikrofon. Posiada dwa wyjścia: 
-- analogowe A0 - umożliwiające pomiar natężenia sygnału oraz 
-- cyfrowe D0 - zmieniające stan po przekroczeniu ustalonego poziomu.
-##### Parametry
+Detektor hałasu. Układ posiada wyjście cyfrowe Out, które w momencie wykrycie dźwięku przyjmuje stan niski, wbudowany potencjometr służy do ustawienia progu zadziałania, przełączania. ##### Parametry
 - **Bez biblioteki**
-- Podłącza się pod pin cyfrowy (hałas) lub analogowy (mikrofon)
-- [Strona poroducenta](http://www.openplatform.cc/index.php/home/index/details/apiid/192)
+- Podłącza się pod pin cyfrowy ‘OUT’
 # 
 # 
 #### Neopixele, czyli diody LED RGB (full color) ze sterownikami 
