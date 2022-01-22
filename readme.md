@@ -234,6 +234,14 @@ Posłuży do tworzenia obwodów bez lutowania. Otowry wewnętrznier połączone,
 ![](foto/potencjometr.jpg)
 
 Proste pokrętło podłączone do wyprowadzeń analogowych pozwala płynnie regulować coś (prędkość, położenie serwa itp.). Kąt obrotu pokrętła odczytujemy jako wartość na wejściu analogowym `OUT`. 
+
+# 
+# 
+#### Kabel Micro USB -> USB A (różowy!) 
+![](foto/kable-MF.png)
+
+Do komunikacji między komputerem a `Maker Nano`. Pozwala załadować kod do mikrokontrolera, ale też odczytywać dane wysyłane przez mikrokontroler. Dostarcza też zasilanie 5V. Po wgraniu programu możemy podłączyć do ładowarki USB i nadal działa, bo do działania nie potrzebuje komputera, a wyłącznie zasilania :)
+
 # 
 # 
 #### Przewody 
