@@ -238,7 +238,7 @@ Proste pokrętło podłączone do wyprowadzeń analogowych pozwala płynnie regu
 # 
 # 
 #### Kabel Micro USB -> USB A (różowy!) 
-![](foto/kable-USB.jpg)
+![](foto/kabel-USB.jpg)
 
 Do komunikacji między komputerem a `Maker Nano`. Pozwala załadować kod do mikrokontrolera, ale też odczytywać dane wysyłane przez mikrokontroler. Dostarcza też zasilanie 5V. Po wgraniu programu możemy podłączyć do ładowarki USB i nadal działa, bo do działania nie potrzebuje komputera, a wyłącznie zasilania :)
 
