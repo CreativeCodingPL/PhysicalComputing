@@ -8,14 +8,14 @@ Do tego otrzymaliście od nas zestawy z odjazdowym malezyjskim `Maker Nano` i ze
    
 ## Zestawy rozdane
 
-![](zestaw.png)
+![](foto/zestaw.png)
 
 ## Skład zestawu 
 Poniże szczegółowy opis elementów w zestawie, wraz z odesłaniami do bibliotek tam gdzie są one wymagane.
  
 # 
 #### Maker Nano - malezyjskie Arduino, świetne!
-![](maker-nano-pinout.png)
+![](foto/maker-nano-pinout.png)
 
 Twórczo przetworzona oryginalna koncepcja Arduino, z przydatnymi  podczas nauki modyfikacjam. Dodatkowe 12 Led przy każdym pinie cyfrowym, dodatkowy przycisk na pinie 2, oraz głośniczek na pinie 8.
 
