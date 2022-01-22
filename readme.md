@@ -81,7 +81,7 @@ Serwomechanizm ustawia się pod zadanym w kodzie kontem. Jest szybki. Potrzebuje
 
 Detektor hałasu. Układ posiada wyjście cyfrowe Out, które w momencie wykrycie dźwięku przyjmuje stan niski, wbudowany potencjometr służy do ustawienia progu zadziałania, przełączania. ##### Parametry
 - **Bez biblioteki**
-- Podłącza się pod pin cyfrowy ‘OUT’
+- Podłącza się pod pin cyfrowy `OUT`
 # 
 # 
 #### Neopixele, czyli diody LED RGB (full color) ze sterownikami 
@@ -119,7 +119,7 @@ Czujnik typu PIR pozwala na wykrywanie ruchu, np. wykorzystywany do wykrywania o
 - Napięcie zasilania VCC: od 4,5 V do 20 V
 - Zakres pomiarowy: maks. 7 m
 - Kąt widzenia: do 100°
-- Wyjście cyfrowe OUT: Stan wysoki - obiekt wykryty, Stan niski - brak obiektu
+- Wyjście cyfrowe `OUT`: Stan wysoki - obiekt wykryty, Stan niski - brak obiektu
 
 # 
 # 
@@ -233,7 +233,7 @@ Posłuży do tworzenia obwodów bez lutowania. Otowry wewnętrznier połączone,
 #### Potencjometr obrotowy 10kΩ
 ![](foto/potencjometr.jpg)
 
-Proste pokrętło podłączone do wyprowadzeń analogowych pozwala płynnie regulować coś (prędkość, położenie serwa itp.). Kąt obrotu pokrętła odczytujemy jako wartość na wejściu analogowym ‘OUT’. 
+Proste pokrętło podłączone do wyprowadzeń analogowych pozwala płynnie regulować coś (prędkość, położenie serwa itp.). Kąt obrotu pokrętła odczytujemy jako wartość na wejściu analogowym `OUT`. 
 # 
 # 
 #### Przewody 
