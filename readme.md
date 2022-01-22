@@ -85,7 +85,7 @@ Detektor hałasu. Układ posiada wyjście cyfrowe Out, które w momencie wykryci
 # 
 # 
 #### Neopixele, czyli diody LED RGB (full color) ze sterownikami 
-![](foto/pierscien-led-rgb-7.jpg)
+![](foto/neopixel.jpg)
 
 WoW! Jest kolorowo! Siedem diod RGB, a każda 16 mln kolorów i wszystko sterowane za pomocą jednego pinu, bo każda dioda ma indywiduany sterownik WS2812. 
 [Więcej na stronie sklepu Botland :: NeoPixel Jewel - pierścień LED RGB 7xWS2812 5050 - Adafruit 2226](https://botland.com.pl/lancuchy-i-matryce-led/2945-neopixel-jewel-pierscien-led-rgb-7xws2812-5050-adafruit-2226.html)
@@ -93,7 +93,7 @@ WoW! Jest kolorowo! Siedem diod RGB, a każda 16 mln kolorów i wszystko sterowa
 ##### Parametry
 - Sterownik **WS2812**
 - Układ kolorów **GRB**
-- Model całego układu **NeoPixel Jewel - - Adafruit 2226”
+- Model całego układu **NeoPixel Jewel - - Adafruit 2226**
 - Model diody 5050
 ##### Biblioteki
 - [FastLED Animation Library](http://fastled.io)
@@ -120,17 +120,6 @@ Czujnik typu PIR pozwala na wykrywanie ruchu, np. wykorzystywany do wykrywania o
 - Zakres pomiarowy: maks. 7 m
 - Kąt widzenia: do 100°
 - Wyjście cyfrowe OUT: Stan wysoki - obiekt wykryty, Stan niski - brak obiektu
-
-# 
-# 
-#### Czujnik odbiciowy
-![](foto/TCRT5000.png)
-
-Wykrywa za pomocą światła podczerwonego przeszkody w niewielkich odległościach. Działa **bez biblioteki**
-##### Parametry
-- Zakres odległości: 0,2 cm - 10 cm
-- Podłącza się po pinu analogowego wyjście A0 lub cyfrowego wyjście D0
-- Moduł czujnika TCRT5000 
 
 # 
 # 
@@ -230,7 +219,9 @@ Półprzewodnik. Świecie tylko jak krótsza noga do GND, a dłuższa do pinu. N
 # 
 # 
 #### Płytka stykowa zwana też [breadboard](https://en.wikipedia.org/wiki/Breadboard)
-![](foto/plytka-stykowa.png) ![](foto/breadbord-conn.png)
+![](foto/plytka-stykowa.png) 
+Schemat połączeń 
+![](foto/breadbord-conn.png)
 
 Posłuży do tworzenia obwodów bez lutowania. Otowry wewnętrznier połączone, w każdej kolumnie `1,2,3,4,…,30` po pięć dziurek `a,b,c,d,e` oraz `f,g,h,i,j` jak zaznaczone na zdjęciu powyżej. Linie zasilania `+/-` połączone w poziomie. 
 ##### Parametry
