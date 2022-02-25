@@ -60,6 +60,9 @@ void loop() {
 }
 ```
 
+## Praca domowa:
+
+Zrobić sketch w którym akcje w Processing przekłądaja sie na zachowanie po stronie Arduino - wykorzystać conajmniej 2 wysyłane dane (analogicznie jak w przykladzie z webcam) i obsluzyc je po stronie Arduino np. sterujac servo, silnikami krokowymi i/lub ledami (neopixelami lub zwylkłymi).
 
 
 
